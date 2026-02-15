@@ -1,0 +1,32 @@
+{
+  "name": "tempo-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@privy-io/react-auth": "^3.13.1",
+    "@tanstack/react-query": "^5.90.21",
+    "next": "^16.1.6",
+    "openai": "^6.21.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^18.3",
+    "@types/react-dom": "^18.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "dotenv": "^17.3.1",
+    "hardhat": "^3.1.8",
+    "typescript": "^5.6",
+    "vitest": "^4.0.18"
+  },
+  "type": "module"
+}

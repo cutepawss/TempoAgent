@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.env.local
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+
+# Hardhat
+artifacts/
+cache/
+
+# OS
+.DS_Store
+Thumbs.db
+.vercel
